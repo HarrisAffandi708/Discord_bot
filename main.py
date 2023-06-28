@@ -29,8 +29,8 @@ async def test(ctx, *, arg):
     await ctx.send(arg)
 
 @bot.command(pass_context=True)
-async def retard(ctx):
-    retard = "zi xuan is a retard"
+async def stupid(ctx):
+    retard = "zi xuan is stupid"
     await ctx.send(retard)
 
 @bot.command(pass_context=True)
